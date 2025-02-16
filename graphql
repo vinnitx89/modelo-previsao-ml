@@ -1,0 +1,11 @@
+modelo-previsao-ml/
+│── modelo/                     # Contém o código do modelo ML
+│   ├── treino.py               # Script para treinar o modelo
+│   ├── modelo.pkl               # Arquivo salvo do modelo treinado
+│── api/
+│   ├── app.py                   # API para expor os endpoints
+│   ├── requisitos.txt           # Dependências do projeto
+│── dados/
+│   ├── dataset.csv              # Dados usados para treinar o modelo
+│── README.md
+│── endpoints.json               # JSON com os endpoints
